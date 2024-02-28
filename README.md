@@ -1,6 +1,6 @@
 # Easy Schema
 
-Goal: Utility web app that takes in a simple database schema written in YAML:
+Goal: Utility web app that takes in a simple database schema written in YAML, for example:
 
 ```yaml
 user:
@@ -21,6 +21,6 @@ book:
 
 ## Why?
 
-- To speed up the software development workflow
-- To compare readability between different schema languages
-- To eliminate vendor lock-in (the eventual goal is to also parse and convert these schema languages)
+- Speeds up software development workflow
+- Compare readability between different schema languages
+- Eliminate vendor lock-in (the eventual goal is to also parse and convert these schema languages)
