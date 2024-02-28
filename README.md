@@ -17,7 +17,7 @@ book:
 # ...
 ```
 
-...and generates opinionated relational schema definitions in JSON-Schema, Zod, Drizzle, Prisma, TypeORM, Knex, GraphQL Nexus, etc.
+...and generates opinionated relational schema definitions in JSON-Schema, TypeScript, Zod, Drizzle, Prisma, TypeORM, Knex, GraphQL Nexus, etc.
 
 ## Why?
 
