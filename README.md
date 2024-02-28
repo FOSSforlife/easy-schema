@@ -9,7 +9,7 @@ user:
   - email
   - password
   - followers
-  - booksRead
+  - books
 
 book:
   - author

@@ -15,7 +15,6 @@ export const parseText = (yamlContent: string): DatabaseSchema => {
   const databaseInput = databaseInputSchema.parse(parsed);
   // TODO: throw error if schema is not valid
 
-  // each key is the name of the model, each value is an array of the model's fields
   return Object.entries(databaseInput).reduce(
     (databaseObj, [modelName, modelSchemaInput]) => {
       databaseObj[modelName] = modelSchemaInput.reduce(
