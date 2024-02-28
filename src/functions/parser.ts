@@ -1,8 +1,8 @@
 import { parse } from 'yaml';
 import { z } from 'zod';
 
-type FieldType = string; // should be the name of a first-order Zod function, e.g. z.string()
-type FieldSpec = string; // should be the name of a second-order Zod function, e.g. .email()
+type FieldType = string; // should be the name of a Zod function, e.g. 'string', 'length'
+type FieldSpec = string; // should be the a Zod function parameter, e.g. '5'
 
 // databases contain models, models contain fields
 export type FieldSchema = { fieldType: FieldType; specs: Array<FieldSpec> };
